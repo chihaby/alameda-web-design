@@ -2,7 +2,7 @@ import styles from "../styles/Navbar.module.css";
 import Link from "next/link";
 import Row from "react-bootstrap/Row";
 import Image from "next/image";
-import owd from "../public/assets/logo/owd.png";
+import awd from "../public/assets/logo/awd.png";
 
 export default function Navbar() {
   return (
@@ -14,7 +14,7 @@ export default function Navbar() {
               <Link href="/">
                 <Image
                   alt="Alameda web design triangular logo"
-                  src={owd}
+                  src={awd}
                   width={45}
                   className={styles.logo}
                 />
